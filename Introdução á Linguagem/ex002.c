@@ -5,6 +5,8 @@ Em seguida, faça os passos que julgar necessário para que ao final, a variáve
 estava em “a”. 
 Traduza seu algoritmo para a linguagem C e exiba os valores na tela. */
 
+#include <stdio.h>;
+#include <stdlib.h>;
 #include <locale.h>
 
 int main() {

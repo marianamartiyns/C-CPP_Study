@@ -1,5 +1,7 @@
 //Faça um programa em C para trocar o valor de duas variáveis inteiras sem utilizar nenhuma variável auxiliar.
 
+#include <stdio.h>;
+#include <stdlib.h>;
 #include <locale.h>
 
 int main() {
