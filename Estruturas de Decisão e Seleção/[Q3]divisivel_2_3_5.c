@@ -14,10 +14,10 @@ int main() {
     scanf("%d", &num);
 
     if (num % 2 == 0 || num % 3 == 0 || num % 5 == 0)
-        printf("\nEsse número é divisivel por 2, 3 e 5");
+        printf("\nEsse número é divisivel por 2, 3 e 5.\n");
 
     else
-        printf("\nEsse número não é divisivel por 2, 3 e 5");
+        printf("\nEsse número não é divisivel por 2, 3 e 5.\n");
 
     return 0;
 }

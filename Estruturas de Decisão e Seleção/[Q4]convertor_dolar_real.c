@@ -21,14 +21,14 @@ int main(){
     switch (opcao) {
 
 case 1: //Real --> Dólar
-    valor_final = valor_inicial / 5.09;
-    printf("R$%.2f --> $%.2f",valor_inicial, valor_final);
+    valor_final = valor_inicial / 5.30;
+    printf("    R$%.2f --> $%.2f",valor_inicial, valor_final);
     break;
 
 
 case 2: // Dólar --> Real
-    valor_final = valor_inicial * 5.09;
-    printf("$%.2f --> R$%.2f",valor_inicial, valor_final);
+    valor_final = valor_inicial * 5.30;
+    printf("    $%.2f --> R$%.2f",valor_inicial, valor_final);
     break;
 
 default:

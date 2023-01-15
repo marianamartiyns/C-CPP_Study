@@ -35,19 +35,19 @@ int main() {
     if (result < 18.5)
         prinf("Seu IMC deu %.1f. Você está ABAIXO DO PESO.", result);
 
-    if (18.5 < result < 25)
+    else if (18.5 < result < 25)
         prinf("Seu IMC deu %.1f. Você está com o PESO NORMAL.", result);
 
-    if (25 < result < 30)
+    else if (25 < result < 30)
         prinf("Seu IMC deu %.1f. Você está com o SOBREPESO.", result);
 
-    if(30 < result < 35)
+    else if(30 < result < 35)
         prinf("Seu IMC deu %.1f. Você está com o OBESIDADE GRAU 1.", result);
 
-    if (35 < result < 40)
+    else if (35 < result < 40)
         prinf("Seu IMC deu %.1f. Você está com o OBESIDADE GRAU 2.", result);
 
-    if (result >= 40)
+    else if (result >= 40)
         prinf("Seu IMC deu %.1f. Você está com o OBESIDADE GRAU 3.", result);
 
     return 0;
