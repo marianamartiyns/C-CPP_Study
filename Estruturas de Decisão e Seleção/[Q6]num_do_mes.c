@@ -64,9 +64,7 @@ case 12:
     break;
 
 default:
-    printf("Mês Invalído");
-    break;
-
+    printf("\nMês Invalído");
     }
 
 return 0;

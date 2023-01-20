@@ -39,7 +39,7 @@ case 'a':
     scanf("%f", &nota3);
 
     nota_final = (nota1 + nota2 + nota3) / 3;
-    printf("\nA média aritmética ficou: %.2f", nota_final);
+    printf("\nA Média Aritmética ficou: %.2f.", nota_final);
     break;
 
 case 'p':
@@ -56,7 +56,7 @@ case 'p':
     scanf("%f", &nota3);
 
     nota_final = (nota1 *3 + nota2 *3 + nota3 *4) / 10;
-    printf("\nA média ponderada ficou: %.2f", nota_final);
+    printf("\nA Média Ponderada ficou: %.2f.", nota_final);
     break;
 
 default:

@@ -44,23 +44,23 @@ case 7:
     break;
 
 case 8:
-    printf("\n Agosto tem 30 dias");
+    printf("\n Agosto tem 31 dias");
     break;
 
 case 9:
-    printf("\n Setembro tem 31 dias");
+    printf("\n Setembro tem 30 dias");
     break;
 
 case 10:
-    printf("\n Outubro tem 30 dias");
+    printf("\n Outubro tem 31 dias");
     break;
 
 case 11:
-    printf("\n Novembro tem 31 dias");
+    printf("\n Novembro tem 30 dias");
     break;
 
 case 12:
-    printf("\n Dezembro tem 30 dias");
+    printf("\n Dezembro tem 31 dias");
     break;
 
 default:

@@ -27,18 +27,18 @@ int main(){
     if(lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1){
 
         if (lado1 == lado2 == lado3)
-            printf("Esse Triângulo é Equilatero");
+            printf("\nEsse Triângulo é Equilatero.");
 
         else{
 
             if(lado1 == lado2 || lado1 == lado3 || lado2 == lado3)
-                printf("Esse Triângulo é Isosceles\n");
+                printf("\nEsse Triângulo é Isosceles.\n");
             else
-                printf("Esse Triângulo é Escaleno\n");
+                printf("\nEsse Triângulo é Escaleno.\n");
         }
     }
     else
-        printf("Os 3 lados NÂO formam um triângulo!\n");
+        printf("\nOs 3 lados NÂO formam um triângulo!\n");
 
 
 return 0;
