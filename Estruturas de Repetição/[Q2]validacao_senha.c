@@ -11,19 +11,19 @@ int main() {
 
     int senha_valida = 123456, senha;
 
-    printf("Digite sua senha: ");
+    printf("\nDigite sua senha: ");
         scanf("%d", &senha);
 
 
     while (senha != senha_valida){
 
-        printf("Senha Invalida!");
+        printf("\nSenha Invalida!\n");
 
-        printf("Digite sua senha: ");
+        printf("\nDigite sua senha: ");
         scanf("%d", &senha);
     }
 
-    printf("Acesso Permitido!");
+    printf("\nAcesso Permitido!\n");
 
 return 0;
 }
