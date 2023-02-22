@@ -1,20 +1,19 @@
 /*Escreva um programa em C que funcione como uma calculadora. O programa deve apresentar
-um menu ao usuário da seguinte forma:
-1 – Somar
-2 – Subtrair
-3 – Multiplicar
-4 – Dividir
-0 – Sair
+um menu ao usuï¿½rio da seguinte forma:
+1 ï¿½ Somar
+2 ï¿½ Subtrair
+3 ï¿½ Multiplicar
+4 ï¿½ Dividir
+0 ï¿½ Sair
 
-Uma estrutura do tipo switch deve ser utilizada para realizar cada operação em um case. Após a
-escolha da operação, dois valores devem ser pedidos ao usuário para realizar a operação escolhida.
-Se a operação escolhida for a 4 o dividendo não pode ser zero, um novo valor deve ser solicitado.
-O programa deve funcionar até que o usuário escolha a opção 0 (opção de saída). */
+Uma estrutura do tipo switch deve ser utilizada para realizar cada operaï¿½ï¿½o em um case. Apï¿½s a
+escolha da operaï¿½ï¿½o, dois valores devem ser pedidos ao usuï¿½rio para realizar a operaï¿½ï¿½o escolhida.
+Se a operaï¿½ï¿½o escolhida for a 4 o dividendo nï¿½o pode ser zero, um novo valor deve ser solicitado.
+O programa deve funcionar atï¿½ que o usuï¿½rio escolha a opï¿½ï¿½o 0 (opï¿½ï¿½o de saï¿½da). */
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <locale.h>
-
 
 main(){
 
@@ -22,19 +21,19 @@ main(){
     float valor1, valor2, result;
     int opcao;
 
-    printf("=== CALCULADORA ===\n\nMenu de Opções:\n\nDigite [1] para SOMAR\nDigite [2] para SUBTRAIR\nDigite [3] para MULTIPLICAR\nDigite [4] para DIVIDIR\nDigite [0] para SAIR\n");
+    printf("=== CALCULADORA ===\n\nMenu de Opï¿½ï¿½es:\n\nDigite [1] para SOMAR\nDigite [2] para SUBTRAIR\nDigite [3] para MULTIPLICAR\nDigite [4] para DIVIDIR\nDigite [0] para SAIR\n");
 
-    printf("\nOpção: ");
+    printf("\nOpï¿½ï¿½o: ");
     scanf("%d", &opcao);
 
     switch (opcao){
 
 case 1:
 
-    printf("Digite o 1º valor da Soma: ");
+    printf("Digite o 1Âº valor da Soma: ");
     scanf("%f", &valor1);
 
-    printf("Digite o 2º valor da Soma: ");
+    printf("Digite o 2Âº valor da Soma: ");
     scanf("%f", &valor2);
 
     result = valor1 + valor2;
@@ -44,10 +43,10 @@ case 1:
 
 case 2:
 
-    printf("Digite o 1º valor da Subtração: ");
+    printf("Digite o 1Âº valor da Subtraï¿½ï¿½o: ");
     scanf("%f", &valor1);
 
-    printf("Digite o 2º valor da Subtração: ");
+    printf("Digite o 2ï¿½ valor da Subtraï¿½ï¿½o: ");
     scanf("%f", &valor2);
 
     result = valor1 - valor2;
@@ -57,10 +56,10 @@ case 2:
 
 case 3:
 
-    printf("Digite o 1º valor da Multiplicação: ");
+    printf("Digite o 1ï¿½ valor da Multiplicaï¿½ï¿½o: ");
     scanf("%f", &valor1);
 
-    printf("Digite o 2º valor da Multiplicação: ");
+    printf("Digite o 2ï¿½ valor da Multiplicaï¿½ï¿½o: ");
     scanf("%f", &valor2);
 
     result = valor1 * valor2;
@@ -70,7 +69,7 @@ case 3:
 
 case 4:
 
-    printf("Digite o 1º valor da Divisão: ");
+    printf("Digite o 1ï¿½ valor da Divisï¿½o: ");
     scanf("%f", &valor1);
 
     printf("Digite o Divisor: ");
@@ -78,7 +77,7 @@ case 4:
 
     if (valor2==0) {
 
-        printf("O dividendo NÃO pode ser 0.\nDigite outro Valor: ");
+        printf("O dividendo Nï¿½O pode ser 0.\nDigite outro Valor: ");
         scanf("%f", &valor2);
 
         result = valor1 / valor2;
