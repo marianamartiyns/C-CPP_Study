@@ -53,6 +53,4 @@ int main() {
 
     printf("\nDentre os valores inseridos(%d, %d, %d, %d, %d) temos %d positivos e %d negativos.\n", valor1, valor2, valor3, valor4, valor5, positivos, negativos);
 
-
-return 0;
 }
